@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.mindtree.demo4.Demo4ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.119 s <<< FAILURE! - in com.mindtree.demo4.Demo4ApplicationTests
+contextLoads(com.mindtree.demo4.Demo4ApplicationTests)  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usercontroller': Unsatisfied dependency expressed through field 'jpa'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpainterface': Post-processing of merged bean definition failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.PersistenceContext.synchronization()Ljavax/persistence/SynchronizationType;
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpainterface': Post-processing of merged bean definition failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.PersistenceContext.synchronization()Ljavax/persistence/SynchronizationType;
+Caused by: java.lang.NoSuchMethodError: javax.persistence.PersistenceContext.synchronization()Ljavax/persistence/SynchronizationType;
+

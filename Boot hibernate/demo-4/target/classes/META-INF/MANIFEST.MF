@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: demo-4
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: M1047224
+Implementation-Vendor-Id: com.mindtree
+Build-Jdk: 1.8.0_102
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/demo-4
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,5 @@
+com\mindtree\Demo4Application.class
+com\mindtree\entity\Userentity.class
+com\mindtree\controller\usercontroller.class
+com\mindtree\repository\Jpainterface.class
+com\mindtree\ServletInitializer.class
